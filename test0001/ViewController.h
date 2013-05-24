@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ASIHTTPRequest.h"
+@interface ViewController : UITableViewController<ASIHTTPRequestDelegate>
 
-@interface ViewController : UIViewController
+@property (nonatomic,retain) NSMutableArray *arr;
+@property (nonatomic,retain) NSMutableString *str;
+@property (nonatomic,retain) NSMutableDictionary *dic;
+-(void)JSON;
 
 @end
