@@ -22,8 +22,6 @@
 		CE9DA83C174C5F3D00CB16C4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9DA83B174C5F3D00CB16C4 /* QuartzCore.framework */; };
 		CE9DA846174C734300CB16C4 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9DA844174C734300CB16C4 /* SubViewController.m */; };
 		CE9DA847174C734300CB16C4 /* SubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9DA845174C734300CB16C4 /* SubViewController.xib */; };
-		CE9F7873174EFC6500C0ACF7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9F7871174EFC6500C0ACF7 /* MainViewController.m */; };
-		CE9F7874174EFC6600C0ACF7 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9F7872174EFC6500C0ACF7 /* MainViewController.xib */; };
 		CEA7F2A7174DBE6E00336A29 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA7F2A3174DBE6E00336A29 /* blueArrow.png */; };
 		CEA7F2A8174DBE6E00336A29 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA7F2A4174DBE6E00336A29 /* blueArrow@2x.png */; };
 		CEA7F2A9174DBE6E00336A29 /* RefreshHeaderAndFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA7F2A6174DBE6E00336A29 /* RefreshHeaderAndFooterView.m */; };
@@ -71,9 +69,6 @@
 		CE9DA843174C734300CB16C4 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
 		CE9DA844174C734300CB16C4 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
 		CE9DA845174C734300CB16C4 /* SubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubViewController.xib; sourceTree = "<group>"; };
-		CE9F7870174EFC6500C0ACF7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		CE9F7871174EFC6500C0ACF7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		CE9F7872174EFC6500C0ACF7 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		CEA7F2A3174DBE6E00336A29 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
 		CEA7F2A4174DBE6E00336A29 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
 		CEA7F2A5174DBE6E00336A29 /* RefreshHeaderAndFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshHeaderAndFooterView.h; sourceTree = "<group>"; };
@@ -178,9 +173,6 @@
 				CE9DA81B174C567800CB16C4 /* AppDelegate.h */,
 				CE9DA81C174C567800CB16C4 /* AppDelegate.m */,
 				CE9DA813174C567800CB16C4 /* Supporting Files */,
-				CE9F7870174EFC6500C0ACF7 /* MainViewController.h */,
-				CE9F7871174EFC6500C0ACF7 /* MainViewController.m */,
-				CE9F7872174EFC6500C0ACF7 /* MainViewController.xib */,
 				CE9DA82F174C5B1B00CB16C4 /* ViewController.h */,
 				CE9DA830174C5B1B00CB16C4 /* ViewController.m */,
 				CE9DA831174C5B1B00CB16C4 /* ViewController.xib */,
@@ -325,7 +317,6 @@
 				CE9DA847174C734300CB16C4 /* SubViewController.xib in Resources */,
 				CEA7F2A7174DBE6E00336A29 /* blueArrow.png in Resources */,
 				CEA7F2A8174DBE6E00336A29 /* blueArrow@2x.png in Resources */,
-				CE9F7874174EFC6600C0ACF7 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +348,6 @@
 				CEA906D0174CB38C00C91243 /* EGOImageLoader.m in Sources */,
 				CEA906D3174CB39800C91243 /* EGOImageView.m in Sources */,
 				CEA7F2A9174DBE6E00336A29 /* RefreshHeaderAndFooterView.m in Sources */,
-				CE9F7873174EFC6500C0ACF7 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
