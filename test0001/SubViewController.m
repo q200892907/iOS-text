@@ -90,6 +90,7 @@
 
 
 -(void)JSON{
+    NSLog(@"尝试修改");
     NSMutableString * url;
     if (isHeader==YES) {
         url =[NSMutableString stringWithFormat:@"http://www.zhongchou.cn/mobile/index.php?ctl=index&act=deals&id=%d&limit=%d",cellrow,arr1.count];
